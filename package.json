@@ -1,0 +1,17 @@
+{
+  "name": "cargomail",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:fenlgy/cargomail.git",
+  "scripts": {
+    "service":"node service",
+    "send":"node app/send-mail"
+  },
+  "author": "FEN",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3",
+    "nodemailer": "^4.0.1",
+    "nodemailer-express-handlebars": "^2.0.0"
+  }
+}
